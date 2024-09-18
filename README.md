@@ -38,7 +38,7 @@ bash train_lamamba.sh
 ```
 
 ## Sampling
-We include a [`sample.sh`] script to generate images.
+We include a `sample.sh` script to generate images.
 ```
 bash sample.sh
 ```

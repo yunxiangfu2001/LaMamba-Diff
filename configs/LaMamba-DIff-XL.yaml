@@ -1,0 +1,22 @@
+MODEL:
+  TYPE: LaMamba-Diff
+  NAME: LaMamba-Diff-XL
+  DROP_PATH_RATE: 0.0
+  VSSM:
+    PATCH_SIZE: 1
+    WINDOW_SIZE: 8
+    EMBED_DIM: 320
+    DEPTHS: [ 2, 2, 2, 2] 
+    CONTINUOUS_SCAN: true
+    SD_UNET_DECODER_DESIGN: true
+    BOTTLENECK_DEPTH: 2
+    SSM_D_STATE: 1
+    SSM_DT_RANK: "auto"
+    SSM_RATIO: 2.0
+    SSM_CONV: 3
+    SSM_CONV_BIAS: false
+    SSM_FORWARDTYPE: "v2"
+    IN_CHANS: 4
+    MLP_RATIO: 4.0
+    DOWNSAMPLE: "v1"
+    PATCHEMBED: "v2"

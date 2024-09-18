@@ -1,5 +1,4 @@
-
-
+#!/bash/bin
 python sample.py --model LaMamba-Diff --image-size 512 \
 --ckpt ckpt_path \
 --cfg configs/LaMamba-DIff-XL.yaml \

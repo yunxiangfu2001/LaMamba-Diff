@@ -1,5 +1,5 @@
 
-# LaMamba-Diff: Linear-Time High-Fidelity Diffusion Models Based on Local Attention and Mamba
+# LaMamba-Diff
 This is the official repository for [LaMamba-Diff: Linear-Time High-Fidelity Diffusion Models Based on Local Attention and Mamba](https://arxiv.org/pdf/2408.02615).  
 
 &nbsp;
